@@ -1,0 +1,562 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 50px 0;
+}
+
+.navigation-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
+.navigation-holder__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-buttons {
+    width: 40px;
+    height: 40px;
+    background-color: #f3fbf8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.btn-register {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #09A66D;
+    padding: 10px 23px;
+}
+
+.my-container-1 {
+    max-width: 1550px;
+    max-height: 4754px;
+    margin: 0 auto;
+}
+
+.card-holder-1 {
+    display: flex;
+    background-color: #F3FBF8;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.title-1 {
+    color: #222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subtitle-1 {
+    color: #555;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 57px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.order-text {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.block-holder {
+    margin-right: 100px;
+}
+
+.block-1 {
+    background-color: #fff;
+    width: 250px;
+    height: 116px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.block-2 {
+    background-color: #fff;
+    width: 250px;
+    height: 116px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-3 {
+    background-color: #fff;
+    width: 250px;
+    height: 116px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-title {
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.block-subtitle {
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.icon {
+    background-color: #f3fbf8;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    margin-right: 24.5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-holder-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.title-subtitle {
+    margin-top: 140.89px;
+    margin-left: 100.19px;
+}
+
+.title-2 {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.subtitle-2 {
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    margin-right: 800px;
+}
+
+.block-order-1 {
+    width: 500px;
+    height: 160px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.block-title-1 {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.block-subtitle-1 {
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: 350px;
+}
+
+.block-order-2 {
+    background-color: #f3fbf8;
+    width: 500px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.block-order-3 {
+    width: 500px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icon-1 {
+    background-color: #f3fbf8;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-shop {
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    margin-top: 40px;
+    margin-left: 341.44px;
+    margin-bottom: 146.11px;
+}
+
+.card-holder-3 {
+    background-color: rgba(9, 166, 109, 0.05);
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 88.76px;
+    padding-left: 100.19px;
+}
+
+.title-3 {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.subtitle-3 {
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 25.53px;
+    margin-right: 150px;
+}
+
+.explore-button-and-fresh-melientha-holder {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.explore-text {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 67px;
+}
+
+.explore-button {
+    width: 64px;
+    height: 64px;
+    background-color: #09A66D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+
+}
+
+.more-foods {
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.fresh-melientha {
+    margin-left: 270px;
+}
+
+.card-holder-4 {
+    display: flex;
+}
+
+.title-subtitle-1 {
+    margin-top: 96px;
+    margin-left: 100.19px;
+}
+
+.title-4 {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+
+
+
+.subtitle-4 {
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-right: 350px;
+}
+
+.personal-holder {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-name {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.star {
+    display: flex;
+    align-items: flex-end;
+}
+
+.star-img {
+    margin-right: 9.26px;
+}
+
+.personal-buttons-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.white-button {
+    margin-right: 26.4px;
+}
+
+.man-avatar {
+    margin-top: 96px;
+    margin-right: 100px;
+}
+
+.card-holder-5 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.download-text {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.title-subtitle-2 {
+    margin-left: 112.79px;
+}
+
+.title-5 {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.subtitle-5 {
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 50.04px;
+    margin-right: 300px;
+}
+.appstore {
+    margin-right: 24px;
+}
+
+.phones {
+    margin-top: 150px;
+    margin-left: 199.94px;
+    margin-bottom: 139.94px;
+}
+
+.my-container-2 {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.navigation-footer-holder {
+    background-color: #FCFEFD;
+    display: flex;
+}
+
+.logo-holder {
+    margin-top: 66.79px;
+    margin-left: px;
+}
+
+.logo {
+    margin-bottom: 29.93px;
+}
+
+.about-us-text {
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 350px;
+}
+
+.navigation-footer-links {
+    display: flex;
+    flex-direction: column;
+    margin-right: 142.87px;
+    margin-top: 105.79px;
+}
+
+.navigation-text {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.nav-footer-link {
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 24.69px;
+}
+
+.resources-footer-links {
+    display: flex;
+    flex-direction: column;
+    margin-right: 142.87px;
+    margin-top: 105.79px;
+}
+
+.resources-text {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.contact-us-holder {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 105.79px;
+}
+
+.contact-us-text {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.email {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.facebook-button {
+    margin-right: 50px;
+}
+
+.twitter-button {
+    margin-right: 50px;
+}
